@@ -37,3 +37,8 @@ ________________________________________________________________________________
 - Tempo de desenvolvimento X Qualidade
 - Escalabilidade X Simplicidade
 - Custo X Funcionabilidade
+- ________________________________________________________________________________________________________
+
+- # Diagrama UML
+- ![image](https://github.com/user-attachments/assets/ac5a8bff-6bb7-4ec9-adac-bb8750c41cca)
+
