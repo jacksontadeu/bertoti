@@ -42,3 +42,14 @@ ________________________________________________________________________________
 - # Diagrama UML
 - ![image](https://github.com/user-attachments/assets/ac5a8bff-6bb7-4ec9-adac-bb8750c41cca)
 
+___________________________________________________________________________________________________________# Testes Unitarios
+![image](https://github.com/user-attachments/assets/bf27f3f8-08d3-4e07-b708-5dcbbf7d4026)
+
+__________________________________________________________________________________________________________
+# Classe Venda
+![image](https://github.com/user-attachments/assets/101d94c0-4265-43d5-8465-0ad532f92553)
+
+__________________________________________________________________________________________________________# Classe Produto
+![image](https://github.com/user-attachments/assets/018af2fd-e434-4627-a5e6-d7809b726a39)
+
+
