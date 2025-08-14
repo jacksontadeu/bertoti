@@ -3,6 +3,7 @@ package com.thehecklers.sburrestdemo.entity.model;
 import com.thehecklers.sburrestdemo.entity.enums.Tipo;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -12,6 +13,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Builder
 public class Coffee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
