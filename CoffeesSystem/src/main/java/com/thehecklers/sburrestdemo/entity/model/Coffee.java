@@ -18,7 +18,7 @@ public class Coffee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(unique = true, nullable = false, length = 200)
+    @Column(unique = true, nullable = true, length = 200)
     private String nome;
 
     @Column(length = 200)

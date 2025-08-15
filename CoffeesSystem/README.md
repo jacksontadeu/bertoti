@@ -11,4 +11,5 @@
 - **Framework**: Spring Boot
 - **Banco de Dados**: PostgreSQL 
 - **Ferramentas**: Maven, JPA, Hibernate
+- **Documentação**: OpenApi - Swagger
 - **IDE**: IntelliJ IDEA

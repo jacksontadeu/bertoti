@@ -24,6 +24,12 @@ public class CoffeeService {
     public Coffee buscarPorId(Long id){
         return coffeeRepository.findById(id).orElse(null);
     }
+    public Coffee buscarPorNome(String nome){
+        return coffeeRepository.findByNome(nome).orElse(null);
+    }
+    public void deletarPorId(Long id){
+        coffeeRepository.deleteById(id);
+    }
 
 
 
