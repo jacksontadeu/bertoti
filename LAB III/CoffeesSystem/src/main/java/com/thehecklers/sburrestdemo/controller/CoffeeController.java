@@ -17,6 +17,7 @@ import java.net.URI;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/coffees")
 @RequiredArgsConstructor
 @Tag(name = "Coffee API", description = "API REST para controle de Coffees")
@@ -25,7 +26,7 @@ public class CoffeeController {
     @Autowired
     private CoffeeService coffeeService;
 
-    @PostMapping("/cadastrar")
+    @PostMapping()
     @Operation(summary = "Endpoint usado para Cadastrar coffee ")
     @ApiResponses(value = {@ApiResponse(responseCode = "201", description = "Coffee cadastrado com sucesso"),
     @ApiResponse(responseCode = "400", description = "Erro ao cadastrar coffee")})
