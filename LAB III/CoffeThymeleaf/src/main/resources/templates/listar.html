@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Café</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{/css/styles.css}" href="/css/styles.css">
+</head>
+</head>
+<body>
+    <div th:insert="fragments/header :: cabecalho-principal"></div>
+    <table class="table table-striped" >
+        
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Tipo</th>
+                <th>Preço</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:if="${#lists.isEmpty(coffees)}">
+                <td colspan="6">Nenhum café cadastrado.</td>
+            </tr>
+            <tr data-th-each="cafe : ${coffees}">
+                <td th:text="${cafe.id}">1</td>
+                <td th:text="${cafe.nome}">Nome do Café</td>
+                <td th:text="${cafe.descricao}">Descrição</td>
+                <td th:text="${cafe.tipo}">Tipo</td>
+                <td th:text="${cafe.preco}">0.00</td>
+                <td>
+                    <a th:href="@{/editar/{id}(id=${cafe.id})}" class="btn btn-primary" >Editar</a>
+                   <a th:href="@{/deletar/{id}(id=${cafe.id})}" class="btn btn-danger" >Excluir</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <style>
+        /* fixa o footer na parte inferior da viewport */
+        #footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            z-index: 1030;
+        }
+    </style>
+    
+    
+</body>
+<footer id="footer" th:insert="fragments/footer :: rodape-principal"></footer>
+</html>

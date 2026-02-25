@@ -1,0 +1,17 @@
+POST http://localhost:8080/coffees
+Content-Type: application/json
+
+{
+  "nome": "Café Mokao 500g",
+  "descricao": "Café moido embalagem almofada",
+  "tipo": "MOIDO",
+  "preco": 24.99
+}
+
+###
+### GET request to example server
+GET http://localhost:8080/coffees/listartodos
+
+###
+GET http://localhost:8080/coffees/1
+###
