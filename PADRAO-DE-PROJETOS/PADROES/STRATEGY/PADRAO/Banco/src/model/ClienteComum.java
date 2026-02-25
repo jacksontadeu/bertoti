@@ -1,4 +1,4 @@
 package model;
 
-public class ClienteComum {
+public class ClienteComum extends Cliente{
 }
