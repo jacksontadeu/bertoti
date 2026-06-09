@@ -87,7 +87,7 @@ Desenvolvi esta habilidade atuando como SM tendo a responsabilidade de entrega d
 Como SM consegui agir com uma comunicação leve e acertiva onde conseguimos alcançar os objetivos de entrega do projeto.
 
 ### **Trabalho em Equipe**
-Conseguimos trabalhar cada um na sua condição ajundado a equipe com a liberdade de exoressão, onde conseguimos uma unidade de equioe e também uma entrega objetiva. 
+Conseguimos trabalhar cada um na sua condição ajudando a equipe com a liberdade de exoressão, onde conseguimos uma unidade de equioe e também uma entrega objetiva. 
 
 ### **Aprendizado**
 Devido a vários desafios propostos pelo projeto, me desenvolvi bastante nas tecnologias e frameworks xonseguindo assim contribuir com os membros da equipe em alguma dúvida ou dificuldade que vinham a surgir durante o projeto.
